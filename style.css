@@ -97,7 +97,7 @@ p {
 }
 
 .image:hover::after {
-    content: url('/icon-view.svg');
+    content: url('icon-view.svg');
     position: absolute;
     top: 50%;
     left: 50%;
@@ -196,6 +196,9 @@ p {
     font-size: 11px;
     text-align: center;
     margin-top: 10px;
+}
+.attribution span{
+    color: #ff7b00;
 }
 
 .attribution a {
